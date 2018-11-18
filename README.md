@@ -18,17 +18,16 @@ Performance of pre-trained model on **validation set**:
 |model3D_1 with left-right augmentation and fps jitter|51.33%|80.46%|
 
 ## Prerequisites
-- Python 3.x
-- PyTorch: 0.4.0 (conda installation preferred - ref https://pytorch.org/)
-- torchvision
-- matplotlib
-- skvideo (scikit-video)
-- ffmpeg
-- opencv-python
-- sh
-- PyAV (`conda install av -c conda-forge`)
+- [Conda](https://conda.io/docs/user-guide/install/index.html#) - manages Python environment and dependencies
+- Run `conda update conda` to ensure the package is up-to-date
 
 ## Setting up
+
+#### Installation
+- Clone the project and move into the root directory
+- Setup python environment - `conda env update`
+   - This will setup an environment named - `smth`
+- Activate python environment - `source activate smth`
 
 #### Download the dataset
 The dataset is provided in the form of videos in `webm` format using VP9 
